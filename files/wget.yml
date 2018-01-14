@@ -1,0 +1,13 @@
+- hosts: all
+  gather_facts: true
+  become: true
+
+  tasks:
+    - block:
+      - yum:
+          name: epel-release
+          state: latest
+
+      - yum:
+          name: wget
+          state: latest

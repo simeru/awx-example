@@ -1,2 +1,5 @@
 [servers]
 server-01 ansible_host=192.168.1.12
+
+[elastic]
+192.168.1.12
