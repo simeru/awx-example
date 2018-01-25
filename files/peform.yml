@@ -9,3 +9,5 @@
       - shell: "df -h"
   
       - shell: "free -m"
+
+      - shell: "ip a | grep inet"
